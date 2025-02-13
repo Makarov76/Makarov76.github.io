@@ -8,7 +8,8 @@
   background-color: grey;
   width: 150px;
   height: 200px;
-  border-style: solid
+  border-style: solid;
+  padding:5px;
 }
 .main-genereihn-text-van{
   top: 100px;
