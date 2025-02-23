@@ -1,15 +1,18 @@
 .main-list{
-  background-color: black;
-  padding: 5px 0px;
+  background-color: gray;
+  padding: 50px 40%;
+
+
 }
 
 .main-genereihn{
   display: inline-block;
-  background-color: grey;
+  background-color: red;
   width: 150px;
   height: 200px;
   border-style: solid;
-  padding:5px;
+  position: relative;
+
 }
 .main-genereihn-text-van{
   top: 100px;
@@ -18,20 +21,18 @@
 
 }
 .main-genereihn-namber-tfo-button-van{
-  display: inline-block; /* Делаем кнопку блочным элементом, но с возможностью выстраивания в строку */
-  padding: 5px 20px; /* Внутренние отступы (верх/низ и лево/право) */
   font-size: 16px; /* Размер текста */
   font-weight: bold; /* Жирный текст */
   color: #fff; /* Цвет текста */
-  background-color: #007bff; /* Цвет фона */
-  border: none; /* Убираем границу */
-  border-radius: 7px; /* Закругляем углы */
-  cursor: pointer; /* Меняем курсор на указатель при наведении */
   text-align: center; /* Выравниваем текст по центру */
-  text-decoration: none; /* Убираем подчеркивание у ссылки */
+  padding: 5px 20px; /* Внутренние отступы (верх/низ и лево/право) */
+  background-color: #007bff; /* Цвет фона */
+  border:transparent solid 0px;
+  border-radius: 10px;
+  cursor: pointer; /* Меняем курсор на указатель при наведении */
   transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
-  position: relative;
-  top: 50px;
+  position: absolute;
+  bottom: 30px;
 }
 .main-genereihn-namber-tfo-button-van:hover {
   background-color: #0056b3; /* Меняем цвет фона при наведении */
@@ -40,3 +41,12 @@
 /* Стили для активного состояния (когда кнопка нажата) */
 .main-genereihn-namber-tfo-button-van:active {
   background-color: green; /* Меняем цвет фона при нажатии */
+
+.footer{
+  margin: 50px;
+  display: inline-block;
+}
+
+.or{
+  padding: 15px;
+}

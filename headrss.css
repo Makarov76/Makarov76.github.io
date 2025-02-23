@@ -1,0 +1,15 @@
+.footer{
+  padding-block: 150px;
+  background-color:darkred;
+}
+
+.tekct{
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+.fyte{
+  background: no-repeat;
+  border: 10px;
+  cursor: pointer;
+}
