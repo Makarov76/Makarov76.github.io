@@ -1,15 +1,13 @@
 .main-list{
-  background-color: gray;
+  background-color: wheat;
   padding: 50px 40%;
-
-
 }
 
 .main-genereihn{
   display: inline-block;
   background-color: red;
-  width: 150px;
-  height: 200px;
+  width: 8em;
+  height: 10em;
   border-style: solid;
   position: relative;
 

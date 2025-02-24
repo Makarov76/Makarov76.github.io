@@ -5,9 +5,10 @@
 .header{
   display: inline-block;
   background-color: white;
-  padding: 3px;
+  padding: 5px;
   width: 100%;
   font: 1em sans-serif;
+
 }
 
 .header-nav ul {
@@ -16,6 +17,7 @@
     gap: 15px; /* Отступ между элементами */
     padding: 0; /* Убираем внутренние отступы списка */
     margin: 0; /* Убираем внешние отступы списка */
+
 }
 
 .header-nav li {
