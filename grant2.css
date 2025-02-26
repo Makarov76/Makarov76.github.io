@@ -48,3 +48,10 @@
 .or{
   padding: 15px;
 }
+.main-informeihn{
+  display: inline-block;
+  list-style-position:inside;
+  background-color: red;
+  padding: 10px;
+}
+
